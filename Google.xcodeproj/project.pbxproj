@@ -14,6 +14,10 @@
 		071BA9C51C5D3AEF003B3874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071BA9C31C5D3AEF003B3874 /* LaunchScreen.storyboard */; };
 		071BA9D01C5D3AEF003B3874 /* GoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BA9CF1C5D3AEF003B3874 /* GoogleTests.swift */; };
 		071BA9DB1C5D3AEF003B3874 /* GoogleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BA9DA1C5D3AEF003B3874 /* GoogleUITests.swift */; };
+		071BA9E91C5DCE9D003B3874 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BA9E81C5DCE9D003B3874 /* SettingsViewController.swift */; };
+		071BA9EB1C5DD09D003B3874 /* SearchActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BA9EA1C5DD09D003B3874 /* SearchActiveViewController.swift */; };
+		071BA9ED1C5DD18A003B3874 /* SearchAutocompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BA9EC1C5DD18A003B3874 /* SearchAutocompleteViewController.swift */; };
+		071BA9EF1C5DD4E0003B3874 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BA9EE1C5DD4E0003B3874 /* SearchResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		071BA9D61C5D3AEF003B3874 /* GoogleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		071BA9DA1C5D3AEF003B3874 /* GoogleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleUITests.swift; sourceTree = "<group>"; };
 		071BA9DC1C5D3AEF003B3874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071BA9E81C5DCE9D003B3874 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		071BA9EA1C5DD09D003B3874 /* SearchActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchActiveViewController.swift; sourceTree = "<group>"; };
+		071BA9EC1C5DD18A003B3874 /* SearchAutocompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAutocompleteViewController.swift; sourceTree = "<group>"; };
+		071BA9EE1C5DD4E0003B3874 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				071BA9BA1C5D3AEF003B3874 /* AppDelegate.swift */,
 				071BA9BC1C5D3AEF003B3874 /* ViewController.swift */,
+				071BA9E81C5DCE9D003B3874 /* SettingsViewController.swift */,
+				071BA9EA1C5DD09D003B3874 /* SearchActiveViewController.swift */,
+				071BA9EC1C5DD18A003B3874 /* SearchAutocompleteViewController.swift */,
+				071BA9EE1C5DD4E0003B3874 /* SearchResultsViewController.swift */,
 				071BA9BE1C5D3AEF003B3874 /* Main.storyboard */,
 				071BA9C11C5D3AEF003B3874 /* Assets.xcassets */,
 				071BA9C31C5D3AEF003B3874 /* LaunchScreen.storyboard */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071BA9ED1C5DD18A003B3874 /* SearchAutocompleteViewController.swift in Sources */,
+				071BA9EF1C5DD4E0003B3874 /* SearchResultsViewController.swift in Sources */,
+				071BA9EB1C5DD09D003B3874 /* SearchActiveViewController.swift in Sources */,
 				071BA9BD1C5D3AEF003B3874 /* ViewController.swift in Sources */,
 				071BA9BB1C5D3AEF003B3874 /* AppDelegate.swift in Sources */,
+				071BA9E91C5DCE9D003B3874 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				071BA9E11C5D3AEF003B3874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		071BA9E21C5D3AEF003B3874 /* Build configuration list for PBXNativeTarget "GoogleTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				071BA9E41C5D3AEF003B3874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		071BA9E51C5D3AEF003B3874 /* Build configuration list for PBXNativeTarget "GoogleUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				071BA9E71C5D3AEF003B3874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
